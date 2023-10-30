@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="overlay_light">#A6A2A2</color>
+    <color name="transparent">@android:color/transparent</color>
+
 </resources>

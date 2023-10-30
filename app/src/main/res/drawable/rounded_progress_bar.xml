@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/dimen_3" /> <!-- progress bar radius  değeri  -->
+                <solid android:color="@color/black" /> <!-- ProgressBar rengi -->
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dimen_3" /> <!-- boş progress bar radius değerini ayarlamak için -->
+            <solid android:color="@color/white" /> <!-- boş progress bar rengi -->
+            <stroke
+                android:width="@dimen/dimen_0.3"
+            android:color="@color/transparent"
+            />
+        </shape>
+    </item>
+</layer-list>
